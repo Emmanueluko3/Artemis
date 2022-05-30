@@ -1,0 +1,48 @@
+
+body{
+    background: linear-gradient(14deg, rgba(253, 115, 197, 0.64),  rgba(211, 211, 211, 0.68), rgb(112, 240, 255)), url(../img/download.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-hold{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.card{
+    text-align: center;
+    box-shadow: 5px, 5px, 15px rgba(45, 7, 7, 0.61);
+    height: 60vh;
+    width: 28vw;
+    margin: 3px;
+    padding: 18px;
+}
+
+ul {
+    color: #fff;
+    text-align: left;
+    list-style: none;
+    font-size: 23px;
+}
+
+@media (max-width: 426px) {
+    .card{
+        text-align: center;
+        height: 70vh;
+        width: 67vw;
+        margin: 3px;
+        padding: 18px;
+        
+    }
+
+    ul {
+        text-align: left;
+        font-size: 18px;
+    }
+    h1{
+        font-size: 26px;
+    }
+}
