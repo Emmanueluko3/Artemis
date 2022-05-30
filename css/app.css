@@ -29,9 +29,15 @@ ul {
 }
 
 @media (max-width: 426px) {
+
+    body{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .card{
-        text-align: center;
-        height: 70vh;
+        text-align: left;
+        height: auto;
         width: 67vw;
         margin: 3px;
         padding: 18px;
@@ -43,6 +49,13 @@ ul {
         font-size: 18px;
     }
     h1{
+        display: flex;
+        flex-direction: column;
         font-size: 26px;
+    }
+
+    h1 span{
+        width: 65%;
+        font-size: 18px;
     }
 }
